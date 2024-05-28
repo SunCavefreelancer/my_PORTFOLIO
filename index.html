@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240424215653">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll="120">
+			<div class="header__container">
+				<div class="header__logo">
+					<a data-goto=".contact" data-goto-header href="#cont" data-goto-top="50" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Image"></picture></a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-watch class="menu__item"><a data-goto=".full-screen" data-goto-header href="#hero" data-goto-top="130" class="menu__link">Home</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto=".services" data-goto-header href="#serv" data-goto-top="20" class="menu__link">Services</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li data-watch class="menu__item menu__item--parent"><a data-goto=".too" data-goto-header href="#potfo" data-goto-top="-30" class="menu__link ">Potfolio</a>
+								<!-- вкладаємо 2 блок меню -->
+								<div data-watch class="sub-menu">
+									<ul class="sub-menu__list">
+										<li class="sub-menu__item">
+											<a data-goto=".video" data-goto-header href="#anime" data-goto-top="20" class="sub-menu__link">Logo Animation</a>
+										</li>
+										<li class="sub-menu__item">
+											<a data-goto=".mobile" data-goto-header href="#mob" data-goto-top="20" class="sub-menu__link">Mobile Dewelopmend</a>
+										</li>
+										<li class="sub-menu__item">
+											<a data-goto=".graphic" data-goto-header href="#graf" data-goto-top="80" data-goto-top="80" class="sub-menu__link">Product Cards</a>
+										</li>
+									</ul>
+								</div>
+								<!-- вкладаємо 2 блок меню -->
+							</li>
+						</ul>
+						<ul class="menu__list">
+							<li data-watch class="menu__item"><a data-goto=".skills" href="#skill" data-goto-top="80" class="menu__link">My skills</a></li>
+						</ul>
+						<ul class="menu__list">
+							<li data-watch class="menu__item"><a data-goto=".testimonials" href="#testi" data-goto-top="80" class="menu__link">Testimonials</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__buttons">
+					<div data-watch class="header__btn-new">
+						<a data-goto=".mobile" data-goto-header href="#mob" data-goto-top="20" class="header__logo">MobDew</a>
+					</div>
+					<div data-watch class="header__btn-new">
+						<a data-goto=".contact" data-goto-header href="#cont" data-goto-top="-15" class="header__logo">Contacts</a>
+					</div>
+				</div>
+
+				<button type="button" class="header__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<!-- 1 -->
+			<section id="hero" class="full-screen">
+				<div data-watch class="full-screen__item"></div>
+				<div data-watch class="full-screen__item full-screen__item-two"></div>
+				<div data-watch class="full-screen__item full-screen__item-tree"></div>
+				<div data-watch class="full-screen__item full-screen__item-fore"></div>
+				<div data-watch class="full-screen__item full-screen__item-fifght"></div>
+				<div class="full-screen__body">
+					<div class="full-screen__text">
+						<h1>Hi! I'm Lara. </h1>
+						<div class="full-screen__title">CO<span>D</span>E_L<span>G</span></div>
+						<ul class="full-screen__list">
+							<li class="full-screen__link">Web Developer</li>
+							<li class="full-screen__link">Web Designer</li>
+							<li class="full-screen__link">Graphic Designer</li>
+						</ul>
+						<div class="full-screen__sub-title">I can help you stand out brightly and beautifully. I have
+							rich
+							experience in website design and building and customization, also, I am good at Video
+							Editing.
+						</div>
+					</div>
+					<div class="full-screen__foto">
+						<picture><source srcset="img/foto.webp" type="image/webp"><img src="img/foto.jpg" alt="Image"></picture>
+					</div>
+				</div>
+				<video autoplay muted loop preload="auto" class="full-screen__video">
+					<source type="video/webm" src="img/video__conv.webm">
+					<source type="video/mp4" src="img/video.mp4">
+				</video>
+			</section>
+			<!-- 1 -->
+
+
+
+			<!-- 2 --> <!-- slider-->
+			<section id="serv" class="section__services services">
+				<div class="services__container">
+					<div data-watch class="services__block">
+						<h2>My Service</h2>
+						<div class="services__sub-title">
+							Hello! I'm Lara, your designer and developer!
+							I bring your ideas to life! I know how to solve business problems with the help of design, I
+							will help you stand out stylishly and brightly!
+						</div>
+						<!-- Кнопки для -slide- навігація (ліворуч/праворуч) -->
+						<div class="services__buttons">
+							<button type="button" class="services-btn-left"></button>
+							<button type="button" class="services-btn-right"></button>
+						</div>
+					</div>
+					<!-- slider-->
+					<!-- Оболонка слайдера -->
+					<div data-watch class="services__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="services__wrapper swiper-wrapper">
+							<!-- Слайд 1-->
+							<div class="services__slide swiper-slide">
+								<div class="services__icon">
+									<picture><source srcset="img/service1.webp" type="image/webp"><img src="img/service1.png" alt="icon"></picture>
+								</div>
+								<div class="services__title">Web Developer</div>
+								<div class="services__description">
+									Layout of websites, landing pages, multipages, banners, Figma to HTML5, parallax,
+									live
+									animation!
+								</div>
+								<div class="services__exp">Experience 3+</div>
+							</div>
+
+							<!-- Слайд 2-->
+							<div class="services__slide swiper-slide">
+								<div class="services__icon">
+									<picture><source srcset="img/service2.webp" type="image/webp"><img src="img/service2.png" alt="icon"></picture>
+								</div>
+								<div class="services__title">UX/UI Design</div>
+								<div class="services__description">
+									I will help you convey the emotions and meaning of your business through web design!
+									I
+									specialize in developing functional websites for experts, bloggers, and businesses.
+								</div>
+								<div class="services__exp">Experience 3+</div>
+							</div>
+
+							<!-- Слайд 3-->
+							<div class="services__slide swiper-slide">
+								<div class="services__icon">
+									<picture><source srcset="img/service3.webp" type="image/webp"><img src="img/service3.png" alt="icon"></picture>
+								</div>
+								<div class="services__title">Graphic Design</div>
+								<div class="services__description">
+									Also Banners, Flyers, Menu, drawing Product Cards that will help promote your
+									business
+									or product!
+								</div>
+								<div class="services__exp">Experience 2+</div>
+							</div>
+
+							<!-- Слайд 4-->
+							<div class="services__slide swiper-slide">
+								<div class="services__icon">
+									<picture><source srcset="img/service4.webp" type="image/webp"><img src="img/service4.png" alt="icon"></picture>
+								</div>
+								<div class="services__title">App Design</div>
+								<div class="services__description">
+									I bring your ideas to life! I know how to solve business problems with the help of
+									design, I will help you stand out stylishly and brightly!
+								</div>
+								<div class="services__exp">Experience 1+</div>
+							</div>
+
+							<!-- Слайд 5-->
+							<div class="services__slide swiper-slide">
+								<div class="services__icon">
+									<picture><source srcset="img/service5.webp" type="image/webp"><img src="img/service5.png" alt="icon"></picture>
+								</div>
+								<div class="services__title">Game Design</div>
+								<div class="services__description">
+									I bring your ideas to life! I know how to solve business problems with the help of
+									design, I will help you stand out stylishly and brightly!
+								</div>
+								<div class="services__exp">Experience 1+</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="swiper-pagination"></div>
+
+					</div>
+				</div>
+				<!-- slider-->
+			</section>
+			<!-- 2 -->
+
+
+			<!-- counters -->
+			<div class="section-counter">
+				<div class="section-counter__container">
+					<div class="counters__cards">
+						<div data-watch class="counters__card"><!-- card 1 -->
+							<div class="counters__title">Finished projects</div>
+							<div data-digits-counter data-digits-counter-speed="1500" class="counter__item counter__item--plus">150</div>
+						</div>
+
+						<div data-watch class="counters__card"><!-- card 2 -->
+							<div class="counters__title">Multy pages</div>
+							<div data-digits-counter class="counter__item counter__item--plus">57</div>
+						</div>
+
+						<div data-watch class="counters__card"><!-- card 3 -->
+							<div class="counters__title">Landing pages</div>
+							<div data-digits-counter data-digits-counter-speed="1500" class="counter__item counter__item--plus">47</div>
+						</div>
+
+						<div data-watch class="counters__card"><!-- card 4 -->
+							<div class="counters__title">Produkt card</div>
+							<div data-digits-counter data-digits-counter-speed="1500" class="counter__item counter__item--plus">65</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- counters -->
+
+
+
+
+			<!-- 3--> <!-- slider potfolio-->
+			<section id="potfo" class="section__too too">
+				<!-- <div class="too__container"> -->
+				<div data-watch class="too__block">
+					<h2>My Potfolio</h2>
+					<div class="too__sub-title">
+						Here you can see my Potfolio on web development, web design, with animation.<br>Multi-page and
+						landing-page sites. Just hover over the
+						image and click on the see more button!
+					</div>
+				</div>
+				<!-- slider-->
+				<!-- Оболонка слайдера -->
+				<div class="next__slider swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div class="next__wrapper swiper-wrapper">
+						<!-- Слайд 1-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site01.webp" type="image/webp"><img src="img/site01.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/lesson-20-SCSS/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- Слайд 2-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site02.webp" type="image/webp"><img src="img/site02.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/Site-Agrox/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд 3-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site03.webp" type="image/webp"><img src="img/site03.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/Site-Sushi/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд 4-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site05.webp" type="image/webp"><img src="img/site05.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/site-Sweet-cupcakes/" class="next__link">See more
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд 5-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site08.webp" type="image/webp"><img src="img/site08.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/Site-Care-Your-Pet-/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд 7-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site04.webp" type="image/webp"><img src="img/site04.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/Photographer-s-personal-website/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- Слайд 8-->
+						<div data-watch class="next__slide swiper-slide">
+							<div class="next__img">
+								<picture><source srcset="img/site10.webp" type="image/webp"><img src="img/site10.png" alt="image"></picture>
+							</div>
+							<div class="next__text">
+								<div class="next__title">Web Developer</div>
+								<div class="next__description">
+									Multi-page Site "Holiday-Tour" | Web design | Layout and adaptation developed!
+								</div>
+								<div class="next__clik">
+									<a target="_blank" href="https://suncavefreelancer.github.io/Landing-Page-Advocate/" class="next__link">See more</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Якщо потрібна пагінація -->
+					<div class="swiper-pagination"></div>
+					<!-- Кнопки для -slide- навігація (ліворуч/праворуч) -->
+					<div class="next__buttons">
+						<button type="button" class="next__btn-left"></button>
+						<button type="button" class="next__btn-right"></button>
+					</div>
+				</div>
+				<!-- </div> -->
+				<!-- slider-->
+			</section>
+			<!-- 3 --> <!-- slider potfolio-->
+
+
+
+			<section id="graf" class="graphic">
+				<div data-watch class="graphic__item"></div>
+				<div data-watch class="graphic__item graphic__item-for"></div>
+				<div data-watch class="graphic__item graphic__item-fifth"></div>
+				<div data-watch class="graphic__item graphic__item-six"></div>
+				<div data-watch class="graphic__item graphic__item-seven"></div>
+				<div class="graphic__container">
+					<div class="graphic__up">
+						<!-- <h2>Potfolio</h2> -->
+						<div class="graphic__sub-title">Product cards</div>
+					</div>
+
+					<!-- slider graphic-->
+					<!-- Оболонка слайдера -->
+					<div class="desing__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="desing__wrapper swiper-wrapper">
+
+							<!-- Слайд 1-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/18.webp" type="image/webp"><img src="img/18.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										A silver ring with a blue stone looks chic and self-sufficient.
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 2-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/19.webp" type="image/webp"><img src="img/19.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Classic, stylish Rolex Man watch.
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 3-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/11.webp" type="image/webp"><img src="img/11.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										New Year's interior decor New Year's decorations for the home
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 4-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/16.webp" type="image/webp"><img src="img/16.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Fashionable sneakers in Neon color Mesh / Sneakers in Ulzzang
+									</div>
+								</div>
+							</div>
+
+
+
+							<!-- Слайд 5-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/6.webp" type="image/webp"><img src="img/6.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Balm Pantene 3 Minute Miracle Nutritional cocktail 200 ml
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 6-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/7.webp" type="image/webp"><img src="img/7.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Mascara for eyelashes with the effect of false eyelashes Inglot FALSE LASH
+										EFFECT
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 7-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/2.webp" type="image/webp"><img src="img/2.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										FarmStay Oil-Free UV Defense Sun SPF 50+ sunscreen for the face
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 8-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/5.webp" type="image/webp"><img src="img/5.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Tester Eau de toilette for women Christian Dior Poison Girl Unexpected 100 ml
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 9-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/8.webp" type="image/webp"><img src="img/8.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Eau de toilette for men SPIFF Blue Seduction 50 ml
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 10-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/1.webp" type="image/webp"><img src="img/1.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										MAKEUP. Clinique Almost Lipstick in Black Honey
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 11-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/12.webp" type="image/webp"><img src="img/12.jpg" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Silver drop earrings with tanzanite and cubic zirconia
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 12-->
+							<div data-watch class="desing__slide swiper-slide">
+								<div class="desing__img">
+									<picture><source srcset="img/3.webp" type="image/webp"><img src="img/3.png" alt="image"></picture>
+								</div>
+								<div class="desing__text">
+									<div class="desing__title">Graphic Design</div>
+									<div class="desing__description">
+										Perfumed water for women Christian Dior Miss Dior Blooming 100 ml
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- </div> -->
+						<!-- slider graphic-->
+					</div>
+			</section>
+
+
+
+			<!-- video small-->
+			<section id="anime" class="video">
+				<div class="video__container">
+					<h2>Logo animation</h2>
+					<div class="video__cards">
+						<div data-watch class="video__card"><!-- card 1 -->
+							<video preload="none" poster="img/01.png" controls class="video__item">
+								<source src="img/logo_video-conv.webm" type="video/webm">
+								<source src="img/logo_v.mp4" type="video/mp4">
+							</video>
+						</div>
+
+						<div data-watch class="video__card"><!-- card 2 -->
+							<iframe src="https://www.youtube.com/embed/ClS5ryQ47ws?si=lNaWGBxCxYofJwWb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						</div>
+
+						<div data-watch class="video__card"><!-- card 3 -->
+							<iframe src="https://www.youtube.com/embed/kZcnx5qTy8E?si=GbLIHR2hHruyNzGR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						</div>
+
+
+						<div data-watch class="video__card"><!-- card 4 -->
+							<video preload="none" poster="img/02.png" controls class="video__item">
+								<source src="img/Barbi_video-conv.webm" type="video/webm">
+								<source src="img/Barbi.mp4" type="video/mp4">
+							</video>
+						</div>
+
+
+						<div data-watch class="video__card"><!-- card 5 -->
+							<video preload="none" poster="img/03.png" controls class="video__item">
+								<source src="img/Code_lg_video-conv.webm" type="video/webm">
+								<source src="img/Code_lg.mp4" type="video/mp4">
+							</video>
+						</div>
+
+
+						<div data-watch class="video__card"><!-- card 6 -->
+							<video preload="none" poster="img/04.png" controls class="video__item">
+								<source src="img/car_video-conv.webm" type="video/webm">
+								<source src="img/car.mp4" type="video/mp4">
+							</video>
+						</div>
+
+
+						<div data-watch class="video__card"><!-- card 7 -->
+							<iframe src="https://www.youtube.com/embed/t7uese_x_Jg?si=LvMoq_RzAF5nz5eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						</div>
+
+
+						<div data-watch class="video__card"><!-- card 8 -->
+							<video preload="none" poster="img/05.png" controls class="video__item">
+								<source src="img/H_b_2_video-conv.webm" type="video/webm">
+								<source src="img/H_b_2.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- video -->
+
+
+
+			<!-- mobile -->
+			<section id="mob" class="mobile">
+				<div data-watch class="mobile__item mobile__item--uno"></div>
+				<div data-watch class="mobile__item mobile__item--two"></div>
+				<div data-watch class="mobile__item mobile__item--tree"></div>
+				<div data-watch class="mobile__item mobile__item--for"></div>
+				<div data-watch class="mobile__item mobile__item--fifgth"></div>
+				<div class="mobile__container">
+					<h2>Mobile Development</h2>
+					<div class="mobile__cards">
+						<div class="mobile__card"><!-- card 1 -->
+							<div data-prlx-mouse class="mobile__img">
+								<picture><source srcset="img/mob01.webp" type="image/webp"><img src="img/mob01.png" alt="Image"></picture>
+							</div>
+							<h3>Animation elements used! Just click the button to “See more”!</h3>
+							<div class="next__clik">
+								<a target="_blank" href="https://suncavefreelancer.github.io/CADR-Nike/" class="next__link">See more</a>
+							</div>
+						</div>
+
+
+						<div class="mobile__card"><!-- card 2 -->
+							<div data-prlx-mouse class="mobile__img">
+								<picture><source srcset="img/mob02.webp" type="image/webp"><img src="img/mob02.png" alt="Image"></picture>
+							</div>
+							<h3>Animation elements used! Just click the button to “See more”!</h3>
+							<div class="next__clik">
+								<a target="_blank" href="https://suncavefreelancer.github.io/CARD-Headphones/" class="next__link">See more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- mobile -->
+
+
+
+			<!-- skills -->
+			<section id="skill" class="skills">
+				<div class="skills__itemmi">
+					<picture><source srcset="img/skills.webp" type="image/webp"><img src="img/skills.png" alt="Image"></picture>
+				</div>
+				<div class="skills__container">
+					<h2>My skills</h2>
+
+					<div class="skills__cards">
+						<div data-watch class="skills__card"><!-- card 1 -->
+							<h3>Web Deweloper</h3>
+							<div class="skills__descrioption descrioption">
+								<ul class="descrioption">
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Html5</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">scss (sass)</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Grid</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Css3</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Flexbox</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">JavaScript</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Metodologia BEM</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Responsive Layout</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Css animations</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Figma to HTML</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">PARALLAX effect</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<div data-watch class="skills__card"><!-- card 2 -->
+							<h3>UX/UI/Graphic Design</h3>
+							<div class="skills__descrioption descrioption">
+								<ul class="descrioption">
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Figma</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Adobe Photoshop</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Figma Animation</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Logo animations</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Canva</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+						<div data-watch class="skills__card"><!-- card 3 -->
+							<h3>Video Editing</h3>
+							<div class="skills__descrioption descrioption">
+								<ul class="descrioption">
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">Vegas PRO</a>
+									</li>
+									<li class="descrioption__item">
+										<a href="#" class="descrioption__link">VSDC Free Video Editor</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- skills -->
+
+
+			<!-- testimonials -->
+			<section id="testi" class="testimonials">
+				<div data-watch class="testimonials__item"></div>
+				<div data-watch class="testimonials__item testimonials__item-two"></div>
+				<div data-watch class="testimonials__item testimonials__item-tree"></div>
+				<div class="testimonials__container">
+					<h3>TESTIMONIALS</h3>
+					<h2>What Our Clients Say</h2>
+
+					<!-- slider-->
+					<!-- Оболонка слайдера -->
+					<div class="project__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="project__wrapper swiper-wrapper">
+							<!-- Слайд 1-->
+							<div data-watch class="project__slide swiper-slide">
+								<div data-rating="set" class="rating"></div> <!-- rating -->
+								<div class="project__description">
+									"I hired Lara at the glowing recommendation of a colleague to work on website for
+									the Festival. On top of Lara's wonderful skills and knowledge as a developer, she's
+									was incredibly easy to work with. The job involved a deluge of time-sensitive
+									requests and feedback, and Lara handled it all and impressed our entire team with
+									shis professionalism and grace under pressure. We can't wait to work with Lara's
+									again soon!"
+								</div>
+								<div class="project__down">
+									<div class="project__icon">
+										<picture><source srcset="img/te01.webp" type="image/webp"><img src="img/te01.jpg" alt="icon"></picture>
+									</div>
+									<div class="project__text">
+										<div class="project__title">Project Manager</div>
+										<div class="project__exp">Jan Kowalski</div>
+									</div>
+									<div class="project__img">
+										<picture><source srcset="img/testi.webp" type="image/webp"><img src="img/testi.png" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 2-->
+							<div data-watch class="project__slide swiper-slide">
+								<div data-rating="set" class="rating"></div> <!-- rating -->
+								<div class="project__description">
+									"Lara, thank you for your work. I'm happy! The design and layout meet my
+									requirements. I recommend her to everyone. Lara is always in touch. Responds quickly
+									to my messages."
+								</div>
+								<div class="project__down">
+									<div class="project__icon">
+										<picture><source srcset="img/te02.webp" type="image/webp"><img src="img/te02.jpg" alt="icon"></picture>
+									</div>
+									<div class="project__text">
+										<div class="project__title">HR manager</div>
+										<div class="project__exp">Filip Wiśniewski</div>
+									</div>
+									<div class="project__img">
+										<picture><source srcset="img/testi.webp" type="image/webp"><img src="img/testi.png" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 3-->
+							<div data-watch class="project__slide swiper-slide">
+								<div data-rating="set" class="rating"></div> <!-- rating -->
+								<div class="project__description">
+									"I would like to express my gratitude to Lara for the productive cooperation! And
+									would like to note high professionalism, responsibility, integrity and a creativity
+									at design solutions! Website design was developed in Figma, Adobe Photoshop + Card
+									Animation. I plan to contact you in the future for new orders. I can surely
+									recommend you to others. See you later, thx."
+								</div>
+								<div class="project__down">
+									<div class="project__icon">
+										<picture><source srcset="img/te03.webp" type="image/webp"><img src="img/te03.jpg" alt="icon"></picture>
+									</div>
+									<div class="project__text">
+										<div class="project__title">Product Manager</div>
+										<div class="project__exp">Andriy Pinchuk</div>
+									</div>
+									<div class="project__img">
+										<picture><source srcset="img/testi.webp" type="image/webp"><img src="img/testi.png" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 4-->
+							<div data-watch class="project__slide swiper-slide">
+								<div data-rating="set" class="rating"></div> <!-- rating -->
+								<div class="project__description">
+									"Thank you very much for your work. Lara, a wonderful specialist! Always in touch!
+									Did the job to a high standard. Developed web design and reliable website layout
+									with animation. She used HTML, SCSS, animation, java script, figma, photo slides and
+									made the site adaptive for all mobile devices. Everything works great! I recommend!"
+								</div>
+								<div class="project__down">
+									<div class="project__icon">
+										<picture><source srcset="img/te04.webp" type="image/webp"><img src="img/te04.jpg" alt="icon"></picture>
+									</div>
+									<div class="project__text">
+										<div class="project__title">SEO specialist</div>
+										<div class="project__exp">Shevchuk Anatoliy</div>
+									</div>
+									<div class="project__img">
+										<picture><source srcset="img/testi.webp" type="image/webp"><img src="img/testi.png" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Слайд 5-->
+							<div data-watch class="project__slide swiper-slide">
+								<div data-rating="set" class="rating"></div> <!-- rating -->
+								<div class="project__description">
+									"Thank you Lara for the wonderful job! Our company is very glad that it chose you!
+									Lara developed the design and made adaptive layout for a multi-page website.She used
+									HTML, scss, figma, adobe photoshop, adaptive, css animation, JavaScript, etc for
+									this work. Thank you for bringing our site to life with animation, we really like
+									it! We look forward to further cooperation. "
+								</div>
+								<div class="project__down">
+									<div class="project__icon">
+										<picture><source srcset="img/te05.webp" type="image/webp"><img src="img/te05.jpg" alt="icon"></picture>
+									</div>
+									<div class="project__text">
+										<div class="project__title">IT recruiter</div>
+										<div class="project__exp">Dobrik Evgeniy</div>
+									</div>
+									<div class="project__img">
+										<picture><source srcset="img/testi.webp" type="image/webp"><img src="img/testi.png" alt="Image"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна пагінація -->
+						<div class="swiper-pagination"></div>
+						<!-- Кнопки для -slide- навігація (ліворуч/праворуч) -->
+						<div class="project__buttons">
+							<button type="button" class="project__btn-left"></button>
+							<button type="button" class="project__btn-right"></button>
+						</div>
+					</div>
+					<!-- </div> -->
+					<!-- slider-->
+				</div>
+			</section>
+			<!-- testimonials -->
+
+
+			<!-- contacts -->
+			<section id="cont" class="contact">
+				<div class="contact__container">
+					<div data-watch class="contact__text">
+						<h2>CONTACT US</h2>
+						<h3>We Are Here For You</h3>
+					</div>
+					<!-- <div class="contact__item"></div> -->
+					<div data-watch class="contact__sub-title">
+						If you are looking for where to make a website for yourself, write here, we will be happy to
+						help, and we will approach this issue individually and interestingly.
+					</div>
+					<div class="contact__cards">
+						<div data-watch class="contact__card"><!--  1 -->
+							<div class="contact__icon">
+								<picture><source srcset="img/work.webp" type="image/webp"><img src="img/work.png" alt="Image"></picture>
+							</div>
+							<div class="contact__name">Work Hours</div>
+							<div class="contact__sub-name">Mon - Frid: 10:00am - 17:00pm</div>
+						</div>
+
+
+						<div data-watch class="contact__card"><!--  2 -->
+							<div class="contact__icon">
+								<picture><source srcset="img/mail.webp" type="image/webp"><img src="img/mail.png" alt="Image"></picture>
+							</div>
+							<div class="contact__name">Contact Directly</div>
+							<div class="contact__sub-name">
+								<a href="mailto:@advocate_zashita.com" class="footer__a">E-mail:mail@gmail.com</a>
+							</div>
+						</div>
+
+
+						<div data-watch class="contact__card"><!-- 3 -->
+							<div class="contact__icon">
+								<picture><source srcset="img/soc.webp" type="image/webp"><img src="img/soc.png" alt="Image"></picture>
+							</div>
+							<div class="contact__name">Urgent work</div>
+							<div class="contact__sub-name">For urgent work, I work seven days a week</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- contacts -->
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div data-watch class="footer__item footer__item--one"></div>
+			<div data-watch class="footer__item footer__item--two"></div>
+			<div data-watch class="footer__item footer__item--tree"></div>
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a href="#" class="footer__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Image"></picture></a>
+				</div>
+				<div class="footer__menu">
+					<h2>Quick Links</h2>
+					<ul class="footer__list">
+						<div class="footer__block">
+							<li class="footer__link"><a data-goto=".full-screen" data-goto-header href="#hero" data-goto-top="130">Home</a></li>
+							<li class="footer__link"><a data-goto=".services" data-goto-header href="#serv" data-goto-top="20">Services</a></li>
+							<li class="footer__link"><a data-goto=".too" data-goto-header href="#potfo" data-goto-top="90">Potfolio</a></li>
+						</div>
+						<div class="footer__block">
+							<li class="footer__link"><a data-goto=".video" data-goto-header href="#anime" data-goto-top="20">Logo Animation</a></li>
+							<li class="footer__link"><a data-goto=".mobile" data-goto-header href="#mob" data-goto-top="20">Mobile Developer</a></li>
+							<li class="footer__link"><a data-goto=".graphic" data-goto-header href="#graf" data-goto-top="80" data-goto-top="80">Product Cards</a></li>
+						</div>
+						<div class="footer__block">
+							<li class="footer__link"><a data-goto=".skills" href="#skill" data-goto-top="80">My skills</a></li>
+							<li class="footer__link"><a data-goto=".testimonials" href="#testi" data-goto-top="80">Testimonials</a></li>
+							<li class="footer__link"><a data-goto=".contact" data-goto-header href="#cont" data-goto-top="15">Contacts</a></li>
+						</div>
+						<div class="footer__block">
+						</div>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- footer -->
+	</div>
+	<script src="js/app.min.js?_v=20240424215653"></script>
+</body>
+
+</html>
